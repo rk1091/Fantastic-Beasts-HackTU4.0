@@ -13,6 +13,11 @@ import Footer from "./Components/Footer";
 import * as ReactDOM from "react-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import SimpleSlider from "./Components/Hospital.jsx";
+
 function App() {
   return (
     <BrowserRouter>
@@ -24,8 +29,12 @@ function App() {
           <Route path="/register" element={<Register />} />
         </Routes>
         <Treatment />
+<<<<<<< Updated upstream
         {/* <Hospital /> */}
         <Faq_section />
+=======
+        <SimpleSlider />
+>>>>>>> Stashed changes
         <Footer />
       </ChakraProvider>
     </BrowserRouter>
