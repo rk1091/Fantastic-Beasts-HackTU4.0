@@ -74,7 +74,7 @@ export default function Faq_section() {
   }, [rows]);
 
   return (
-    <div>
+    <div style={{ paddingTop: "50px" }}>
       <center>
         <h2 className="section-title">More Information</h2>
       </center>

@@ -1,25 +1,19 @@
 import { Box, Text, Link, VStack, Code, Grid, theme } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "../ColorModeSwitcher";
+import Treatment from "./Treatment";
+// import Treatment from "./Components/Treatment";
+// import Hospital from "./Components/Hospital.jsx";
+import Faq_section from "./Faq_section";
+import Footer from "./Footer";
+import SimpleSlider from "./Hospital.jsx";
 // import Card from "./Card";
 export default function Home() {
   return (
-    <Box textAlign="center" fontSize="xl">
-      <Grid minH="100vh" p={3}>
-        <ColorModeSwitcher justifySelf="flex-end" />
-        <VStack spacing={8}>
-          {/* <Text>
-            Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-          </Text> */}
-          <Link
-            color="teal.500"
-            href="https://chakra-ui.com"
-            fontSize="2xl"
-            target="_blank"
-            rel="noopener noreferrer"
-          ></Link>
-          {/* <Card /> */}
-        </VStack>
-      </Grid>
-    </Box>
+    <div>
+      <Treatment />
+      <SimpleSlider />
+
+      <Footer />
+    </div>
   );
 }

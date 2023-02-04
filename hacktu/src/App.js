@@ -7,13 +7,16 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home";
 import Register from "./Components/Register.jsx";
 import Treatment from "./Components/Treatment";
-import SimpleSlider from "./Components/Hospital";
+// import Hospital from "./Components/Hospital.jsx";
 import Faq_section from "./Components/Faq_section";
 import Footer from "./Components/Footer";
 import * as ReactDOM from "react-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Dental from "./Components/Dental";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import SimpleSlider from "./Components/Hospital.jsx";
 
 function App() {
   return (
@@ -24,12 +27,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/dental" element={<Dental />} />
         </Routes>
-        <Treatment />
-        <SimpleSlider />
-        <Faq_section />
-        <Footer />
       </ChakraProvider>
     </BrowserRouter>
   );
