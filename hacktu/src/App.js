@@ -17,6 +17,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import SimpleSlider from "./Components/Hospital.jsx";
+import Dental from "./Components/Dental.jsx";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/dental" element={<Dental />} />
         </Routes>
       </ChakraProvider>
     </BrowserRouter>
