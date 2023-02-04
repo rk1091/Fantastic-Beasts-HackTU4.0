@@ -13,6 +13,8 @@ import Footer from "./Components/Footer";
 import * as ReactDOM from "react-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import Dental from "./Components/Dental";
+
 function App() {
   return (
     <BrowserRouter>
@@ -22,11 +24,11 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/dental" element={<Dental />} />
         </Routes>
         <Treatment />
         <SimpleSlider />
         <Faq_section />
-
         <Footer />
       </ChakraProvider>
     </BrowserRouter>
