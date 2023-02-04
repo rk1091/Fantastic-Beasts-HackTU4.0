@@ -29,12 +29,7 @@ function App() {
           <Route path="/register" element={<Register />} />
         </Routes>
         <Treatment />
-<<<<<<< Updated upstream
-        {/* <Hospital /> */}
-        <Faq_section />
-=======
         <SimpleSlider />
->>>>>>> Stashed changes
         <Footer />
       </ChakraProvider>
     </BrowserRouter>
