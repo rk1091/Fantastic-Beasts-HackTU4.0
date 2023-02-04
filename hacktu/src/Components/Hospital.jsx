@@ -3,6 +3,7 @@ import pic1 from "../imgs/pic1.jpg";
 import pic2 from "../imgs/pic2.jpg";
 import pic3 from "../imgs/pic3.jpg";
 import Slider from "react-slick";
+import { Text } from "@chakra-ui/react";
 
 export default class SimpleSlider extends Component {
   // export default function SimpleSlider(){
@@ -19,7 +20,17 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div>
-        <h2>Auto Play</h2>
+        <Text
+          fontSize="60px"
+          bgGradient="linear(to-l, #553c9a, #b393d3)"
+          bgClip="text"
+          fontSize="6xl"
+          fontWeight="extrabold">
+          {/* background-clip: text;color="transparent"
+         -webkit-background-clip: text;font-weight: 600; */}
+
+          <center style={{margin="10px"}}>Our Accredited & Trusted Providers</center>
+        </Text>
         <Slider {...settings}>
           <div>
             <img src={pic1} />

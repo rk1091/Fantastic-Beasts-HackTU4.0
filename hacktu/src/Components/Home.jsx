@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <Treatment />
       <SimpleSlider />
-
+      <Faq_section />
       <Footer />
     </div>
   );
