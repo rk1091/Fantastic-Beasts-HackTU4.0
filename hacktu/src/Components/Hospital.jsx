@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import pic1 from "../imgs/pic1.jpg";
+import pic2 from "../imgs/pic2.jpg";
+import pic3 from "../imgs/pic3.jpg";
 import Slider from "react-slick";
 
 export default class SimpleSlider extends Component {
@@ -9,7 +12,7 @@ export default class SimpleSlider extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
+      speed: 3000,
       autoplaySpeed: 1000,
       cssEase: "linear",
     };
@@ -18,22 +21,22 @@ export default class SimpleSlider extends Component {
         <h2>Auto Play</h2>
         <Slider {...settings}>
           <div>
-            <h3>1</h3>
+            <img src={pic1} />
           </div>
           <div>
-            <h3>2</h3>
+            <img src={pic2} />
           </div>
           <div>
-            <h3>3</h3>
+            <img src={pic3} />
           </div>
           <div>
-            <h3>4</h3>
+            <img src={pic1} />
           </div>
           <div>
-            <h3>5</h3>
+            <img src={pic2} />
           </div>
           <div>
-            <h3>6</h3>
+            <img src={pic3} />
           </div>
         </Slider>
       </div>
