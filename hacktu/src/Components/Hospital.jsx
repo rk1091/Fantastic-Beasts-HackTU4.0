@@ -5,10 +5,7 @@ import pic3 from "../imgs/pic3.jpg";
 import Slider from "react-slick";
 
 export default class SimpleSlider extends Component {
-<<<<<<< Updated upstream
-=======
   // export default function SimpleSlider(){
->>>>>>> Stashed changes
   render() {
     const settings = {
       dots: true,
