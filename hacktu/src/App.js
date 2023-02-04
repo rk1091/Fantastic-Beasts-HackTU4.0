@@ -6,7 +6,8 @@ import Login from "./Components/Login.jsx";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home";
 import Register from "./Components/Register.jsx";
-
+import Treatment from "./Components/Treatment";
+import Footer from "./Components/Footer";
 import * as ReactDOM from "react-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -20,6 +21,8 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
         </Routes>
+        <Treatment />
+        <Footer />
       </ChakraProvider>
     </BrowserRouter>
   );
