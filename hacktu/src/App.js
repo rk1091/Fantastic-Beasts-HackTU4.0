@@ -7,7 +7,6 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home";
 import Register from "./Components/Register.jsx";
 import Treatment from "./Components/Treatment";
-// import Hospital from "./Components/Hospital.jsx";
 import Faq_section from "./Components/Faq_section";
 import Footer from "./Components/Footer";
 import * as ReactDOM from "react-dom";
@@ -24,7 +23,6 @@ function App() {
           <Route path="/register" element={<Register />} />
         </Routes>
         <Treatment />
-        {/* <Hospital /> */}
         <Faq_section />
         <Footer />
       </ChakraProvider>
