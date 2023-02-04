@@ -12,6 +12,9 @@ import Footer from "./Components/Footer";
 import * as ReactDOM from "react-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -23,7 +26,7 @@ function App() {
           <Route path="/register" element={<Register />} />
         </Routes>
         <Treatment />
-        <Faq_section />
+        <Faq_section />        
         <Footer />
       </ChakraProvider>
     </BrowserRouter>
