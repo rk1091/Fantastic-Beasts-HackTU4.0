@@ -6,6 +6,8 @@ import Treatment from "./Treatment.jsx";
 import { Flex, Spacer, Heading, Text, Divider, Center } from "@chakra-ui/react";
 import Comment from "./Comment";
 import Denheading from "./Denheading";
+import Denheading2 from "./Denheading2";
+import Denheading3 from "./Denheading3";
 export default function Dental() {
   return (
     <div>
@@ -30,7 +32,7 @@ export default function Dental() {
         <Doctorcard />
       </Flex>
       <br />
-      <Denheading />
+      <Denheading2 />
       <Flex>
         <Doctorcard />
         <Doctorcard />
@@ -38,7 +40,7 @@ export default function Dental() {
         <Doctorcard />
       </Flex>
       <br />
-      <Denheading />
+      <Denheading3 />
       <Flex>
         <Doctorcard />
         <Doctorcard />

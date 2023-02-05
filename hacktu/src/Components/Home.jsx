@@ -10,7 +10,10 @@ export default function Home() {
   return (
     <div>
       <div>
-        <img src={main} />
+        {" "}
+        <center>
+          <img src={main} />
+        </center>
       </div>
       <Treatment />
       <SimpleSlider />
