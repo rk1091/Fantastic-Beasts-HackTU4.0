@@ -25,11 +25,14 @@ export default class SimpleSlider extends Component {
           bgGradient="linear(to-l, #553c9a, #b393d3)"
           bgClip="text"
           fontSize="6xl"
-          fontWeight="extrabold">
+          fontWeight="extrabold"
+        >
           {/* background-clip: text;color="transparent"
          -webkit-background-clip: text;font-weight: 600; */}
 
-          <center style={{margin="10px"}}>Our Accredited & Trusted Providers</center>
+          <center style={{ margin: "10px" }}>
+            Our Accredited & Trusted Providers
+          </center>
         </Text>
         <Slider {...settings}>
           <div>
