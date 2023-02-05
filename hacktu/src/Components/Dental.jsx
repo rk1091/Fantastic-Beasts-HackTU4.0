@@ -3,27 +3,51 @@ import dental from "../imgs/dental.jpg";
 import Treatmentcard from "./Treatmentcard.jsx";
 import Doctorcard from "./Doctorcard";
 import Treatment from "./Treatment.jsx";
-import { Flex, Spacer } from "@chakra-ui/react";
+import { Flex, Spacer, Heading, Text, Divider, Center } from "@chakra-ui/react";
 import Comment from "./Comment";
-
+import Denheading from "./Denheading";
 export default function Dental() {
   return (
     <div>
-      <img src={dental} />
-      <h1>hi</h1>
+      <Center>
+        <img src={dental} />
+      </Center>
+      <br />
+      <br />
+      <br />
+      <center>
+        <Heading size={"lg"}>
+          Find the right Doctor <Text color="purple.200">at right place</Text>
+        </Heading>
+        <br />
+      </center>
+      <br />
+      <Denheading />
       <Flex>
-        <Treatmentcard />
-        <Treatmentcard />
-        <Treatmentcard />
-
-        <Treatmentcard />
+        <Doctorcard />
+        <Doctorcard />
+        <Doctorcard />
+        <Doctorcard />
       </Flex>
+      <br />
+      <Denheading />
       <Flex>
         <Doctorcard />
         <Doctorcard />
         <Doctorcard />
         <Doctorcard />
       </Flex>
+      <br />
+      <Denheading />
+      <Flex>
+        <Doctorcard />
+        <Doctorcard />
+        <Doctorcard />
+        <Doctorcard />
+      </Flex>
+      <br />
+      <br />
+      <br />
       <Comment />
     </div>
   );
