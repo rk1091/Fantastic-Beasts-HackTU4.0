@@ -42,8 +42,7 @@ const TestimonialContent = ({ children }: { children: ReactNode }) => {
         bottom: "-16px",
         left: "50%",
         transform: "translateX(-50%)",
-      }}
-    >
+      }}>
       {children}
     </Stack>
   );
@@ -62,8 +61,7 @@ const TestimonialText = ({ children }: { children: ReactNode }) => {
     <Text
       textAlign={"center"}
       color={useColorModeValue("gray.600", "gray.400")}
-      fontSize={"sm"}
-    >
+      fontSize={"sm"}>
       {children}
     </Text>
   );
@@ -101,8 +99,7 @@ export default function Treatment() {
         </Stack>
         <Stack
           direction={{ base: "column", md: "row" }}
-          spacing={{ base: 10, md: 4, lg: 10 }}
-        >
+          spacing={{ base: 10, md: 4, lg: 10 }}>
           {/* <Treatmentcard />
           <Treatmentcard />
           <Treatmentcard />
@@ -112,8 +109,7 @@ export default function Treatment() {
             <TestimonialContent>
               <TestimonialHeading>Dental Work</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                All kinds of affordable dental treatments
               </TestimonialText>
               <Link href="/dental">Click here</Link>
             </TestimonialContent>
@@ -129,8 +125,7 @@ export default function Treatment() {
             <TestimonialContent>
               <TestimonialHeading>Cosmetic treatment</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                Advanced cosmetic treatments at world class hospitals
               </TestimonialText>
               <Link href="/register">Click here</Link>
             </TestimonialContent>
@@ -146,8 +141,7 @@ export default function Treatment() {
             <TestimonialContent>
               <TestimonialHeading>Hair Transplant</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                Quality hair transplant by India's top surgeons
               </TestimonialText>
               <Link href="/register">Click here</Link>
             </TestimonialContent>
@@ -163,8 +157,7 @@ export default function Treatment() {
             <TestimonialContent>
               <TestimonialHeading>Wellness services</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+                The best spas, yoga retreats and meditation centres
               </TestimonialText>
               <Link href="/register">Click here</Link>
             </TestimonialContent>

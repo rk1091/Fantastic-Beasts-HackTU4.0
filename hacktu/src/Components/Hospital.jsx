@@ -21,9 +21,10 @@ export default class SimpleSlider extends Component {
     return (
       <div>
         <Text
-          fontSize="60px"
+          fontSize="65px"
           bgGradient="linear(to-l, #553c9a, #b393d3)"
           bgClip="text"
+<<<<<<< HEAD
           fontSize="6xl"
           fontWeight="extrabold"
         >
@@ -31,6 +32,14 @@ export default class SimpleSlider extends Component {
          -webkit-background-clip: text;font-weight: 600; */}
 
           <center style={{ margin: "10px" }}>
+=======
+          fontSize="5xl"
+          fontWeight="extrabold">
+          {/* background-clip: text;color="transparent"
+         -webkit-background-clip: text;font-weight: 600; */}
+
+          <center style={{ margin: "40px", p: "20px" }}>
+>>>>>>> 9bbf5d994cc8f560967b284dc25a61b6c839c0e1
             Our Accredited & Trusted Providers
           </center>
         </Text>
