@@ -23,8 +23,7 @@ export default function Treatmentcard() {
         boxShadow={"2xl"}
         rounded={"lg"}
         pos={"relative"}
-        zIndex={1}
-      >
+        zIndex={1}>
         <Box
           rounded={"lg"}
           mt={-12}
@@ -46,8 +45,7 @@ export default function Treatmentcard() {
             _after: {
               filter: "blur(20px)",
             },
-          }}
-        >
+          }}>
           <Image
             rounded={"lg"}
             height={230}

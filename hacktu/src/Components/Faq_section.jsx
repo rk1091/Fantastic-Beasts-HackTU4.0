@@ -79,13 +79,14 @@ export default function Faq_section() {
   }, [rows]);
 
   return (
-    <div style={{ paddingTop: "50px", margin: "50px" }}>
+    <div style={{ paddingTop: "50px", margin: "60px" }}>
       <center>
         {/* <h2 className="section-title">More Information</h2> */}
+        <Text fontSize="32px" color="teal" fontSize="5xl" fontWeight="bold">
+          Frequently Asked Questions (Faqs)
+        </Text>
       </center>
-      <Text fontSize="32px" color="teal" fontSize="5xl" fontWeight="bold">
-        Frequently Asked Questions (Faqs)
-      </Text>
+      <br></br>
       <div className="faq-style-wrapper">
         <Text>
           <Faq data={data} getRowOptions={setRowsOption} />

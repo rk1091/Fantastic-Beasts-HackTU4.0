@@ -34,34 +34,36 @@ export default function Footer() {
             <Text fontSize={"sm"}>© 2023 All rights reserved</Text>
           </Stack>
           <Stack align={"flex-start"}>
+            <ListHeader></ListHeader>
+            <Link href={"#"}></Link>
+            <Link href={"#"}></Link>
+            <Link href={"#"}></Link>
+            <Link href={"#"}></Link>
+            <Link href={"#"}></Link>
+          </Stack>
+
+          <Stack align={"flex-start"}>
+            <ListHeader></ListHeader>
+            <Link href={"#"}></Link>
+            <Link href={"#"}></Link>
+            <Link href={"#"}></Link>
+            <Link href={"#"}></Link>
+            <Link href={"#"}></Link>
+          </Stack>
+          <Stack align={"flex-start"}>
             <ListHeader>About</ListHeader>
-            <Link href={"#"}>Overview</Link>
-            <Link href={"#"}>Features</Link>
-            <Link href={"#"}>Tutorials</Link>
-            <Link href={"#"}>Pricing</Link>
+            <Link href={"#"}>For Customers</Link>
+            <Link href={"#"}>Information</Link>
+            <Link href={"#"}>For Doctors</Link>
+            <Link href={"#"}>About us</Link>
           </Stack>
-          <Stack align={"flex-start"}>
-            <ListHeader></ListHeader>
-            <Link href={"#"}></Link>
-            <Link href={"#"}></Link>
-            <Link href={"#"}></Link>
-            <Link href={"#"}></Link>
-            <Link href={"#"}></Link>
-          </Stack>
-          <Stack align={"flex-start"}>
-            <ListHeader></ListHeader>
-            <Link href={"#"}></Link>
-            <Link href={"#"}></Link>
-            <Link href={"#"}></Link>
-            <Link href={"#"}></Link>
-            <Link href={"#"}></Link>
-          </Stack>
+
           <Stack align={"flex-start"}>
             <ListHeader>Follow Us</ListHeader>
-            <Link href={"#"}>Facebook</Link>
-            <Link href={"#"}>Twitter</Link>
-            <Link href={"#"}>Instagram</Link>
-            <Link href={"#"}>LinkedIn</Link>
+            <Link href={"https://www.facebook.com/"}>Facebook</Link>
+            <Link href={"https://www.twitter.com/"}>Twitter</Link>
+            <Link href={"https://www.instagram.com/"}>Instagram</Link>
+            <Link href={"https://www.linkedin.com/"}>LinkedIn</Link>
           </Stack>
         </SimpleGrid>
       </Container>
