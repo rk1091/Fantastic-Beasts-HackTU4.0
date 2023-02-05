@@ -29,7 +29,7 @@ export default function Footer() {
           spacing={8}>
           <Stack spacing={6}>
             <h1>
-              <bold>TheMedTraveller</bold>
+              <bold>HealthHorizons</bold>
             </h1>
             <Text fontSize={"sm"}>© 2023 All rights reserved</Text>
           </Stack>
