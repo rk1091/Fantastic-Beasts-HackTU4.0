@@ -1,8 +1,10 @@
 import React from "react";
 import dental from "../imgs/dental.jpg";
 import Treatmentcard from "./Treatmentcard.jsx";
+import Doctorcard from "./Doctorcard";
 import Treatment from "./Treatment.jsx";
 import { Flex, Spacer } from "@chakra-ui/react";
+import Comment from "./Comment";
 
 export default function Dental() {
   return (
@@ -11,12 +13,18 @@ export default function Dental() {
       <h1>hi</h1>
       <Flex>
         <Treatmentcard />
-        <Spacer />
         <Treatmentcard />
         <Treatmentcard />
 
         <Treatmentcard />
       </Flex>
+      <Flex>
+        <Doctorcard />
+        <Doctorcard />
+        <Doctorcard />
+        <Doctorcard />
+      </Flex>
+      <Comment />
     </div>
   );
 }
