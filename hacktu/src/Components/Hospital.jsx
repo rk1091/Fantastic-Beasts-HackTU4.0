@@ -25,7 +25,7 @@ export default class SimpleSlider extends Component {
           bgGradient="linear(to-l, #553c9a, #b393d3)"
           bgClip="text"
           fontSize="5xl"
-          fontWeight="extrabold">
+          fontWeight="bold">
           {/* background-clip: text;color="transparent"
          -webkit-background-clip: text;font-weight: 600; */}
 

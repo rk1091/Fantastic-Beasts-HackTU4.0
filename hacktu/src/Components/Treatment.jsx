@@ -1,4 +1,8 @@
 import { ReactNode } from "react";
+import S from "../imgs/cos.jpg";
+import D from "../imgs/D.jpg";
+import H from "../imgs/hair.jpg";
+import we from "../imgs/wellness.jpg";
 import {
   Box,
   Flex,
@@ -67,34 +71,14 @@ const TestimonialText = ({ children }: { children: ReactNode }) => {
   );
 };
 
-const TestimonialAvatar = ({
-  src,
-  name,
-  title,
-}: {
-  src: string,
-  name: string,
-  title: string,
-}) => {
-  return (
-    <Flex align={"center"} mt={8} direction={"column"}>
-      <Avatar src={src} alt={name} mb={2} />
-      <Stack spacing={-1} align={"center"}>
-        <Text fontWeight={600}>{name}</Text>
-        <Text fontSize={"sm"} color={useColorModeValue("gray.600", "gray.400")}>
-          {title}
-        </Text>
-      </Stack>
-    </Flex>
-  );
-};
-
 export default function Treatment() {
   return (
     <Box bg={useColorModeValue("gray.100", "gray.700")}>
       <Container maxW={"7xl"} py={16} as={Stack} spacing={20}>
         <Stack spacing={0} align={"center"}>
-          <Heading>Treatment offers</Heading>
+          <Heading>
+            <bold>Treatment offers</bold>
+          </Heading>
           <Text>Compare prices and find exclusive packages</Text>
         </Stack>
         <Stack
@@ -113,13 +97,18 @@ export default function Treatment() {
               </TestimonialText>
               <Link href="/dental">Click here</Link>
             </TestimonialContent>
-            <TestimonialAvatar
-              src={
-                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-              }
-              // name={"Jane Cooper"}
-              // title={"CEO at ABC Corporation"}
-            />
+
+            <br></br>
+            <center>
+              <img
+                src={D}
+                style={{
+                  resizeMode: "cover",
+                  height: 150,
+                  width: 150,
+                }}
+              />
+            </center>
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
@@ -129,13 +118,18 @@ export default function Treatment() {
               </TestimonialText>
               <Link href="/register">Click here</Link>
             </TestimonialContent>
-            <TestimonialAvatar
-              src={
-                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-              }
-              // name={"Jane Cooper"}
-              // title={"CEO at ABC Corporation"}
-            />
+
+            <br></br>
+            <center>
+              <img
+                src={H}
+                style={{
+                  resizeMode: "cover",
+                  height: 150,
+                  width: 150,
+                }}
+              />
+            </center>
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
@@ -145,13 +139,18 @@ export default function Treatment() {
               </TestimonialText>
               <Link href="/register">Click here</Link>
             </TestimonialContent>
-            <TestimonialAvatar
-              src={
-                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-              }
-              // name={"Jane Cooper"}
-              // title={"CEO at ABC Corporation"}
-            />
+
+            <br></br>
+            <center>
+              <img
+                src={S}
+                style={{
+                  resizeMode: "cover",
+                  height: 150,
+                  width: 150,
+                }}
+              />
+            </center>
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
@@ -161,14 +160,17 @@ export default function Treatment() {
               </TestimonialText>
               <Link href="/register">Click here</Link>
             </TestimonialContent>
-
-            <TestimonialAvatar
-              src={
-                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
-              }
-              // name={"Jane Cooper"}
-              // title={"CEO at ABC Corporation"}
-            />
+            <br></br>
+            <center>
+              <img
+                src={we}
+                style={{
+                  resizeMode: "cover",
+                  height: 150,
+                  width: 150,
+                }}
+              />
+            </center>
           </Testimonial>
         </Stack>
       </Container>
